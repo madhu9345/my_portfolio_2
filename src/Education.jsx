@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Sidebar from "./Sidebar";
-// directly import the JSON file
-import data from "./db.json"; // adjust path if needed
+
+import data from "./db.json"; 
 
 function Education() {
-  // initialize state from imported JSON
+  
   const [education, setEducation] = useState(
     Array.isArray(data.education) ? data.education : []
   );

@@ -1,0 +1,203 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Portfolio Website",
+      "description": "A personal portfolio website to showcase projects and skills.",
+      "technologies": "React-Frontend Library",
+      "github": "https://github.com/madhu9345/my_portfolio",
+      "image": "/assets/port.webp"
+    },
+    {
+      "id": 2,
+      "title": "Bank Management System",
+      "description": "Developed corefunctionalities for managing customer accounts,transactions etc.",
+      "technologies": "Database Management System",
+      "github": "https://github.com/madhu9345/bank-management-system",
+      "image": "/assets/bank.webp"
+    },
+    {
+      "id": 3,
+      "title": "Walmart Sales Predicter",
+      "description": "Built a machinelearning model  to predict weeklysales for Walmartstores.",
+      "technologies": "Machine Learning",
+      "github": "https://github.com/madhu9345/walmart_sales_predictor",
+      "image": "/assets/walmart.webp"
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "imageUrl": "/assets/mail.webp",
+      "socialMediaLink": "mailto:madhushivam@gmail.com",
+      "name": "EMail"
+    },
+    {
+      "id": 2,
+      "imageUrl": "/assets/phone1.jpg",
+      "socialMediaLink": "tel:+919345778968",
+      "name": "Phone no"
+    },
+    {
+      "id": 3,
+      "imageUrl": "/assets/link1.webp",
+      "socialMediaLink": "https://www.linkedin.com/in/madhuelango/",
+      "name": "Linkedin"
+    },
+    {
+      "id": 4,
+      "imageUrl": "/assets/git1.webp",
+      "socialMediaLink": "https://github.com/madhu9345/",
+      "name": "GitHub"
+    },
+    {
+      "id": 5,
+      "imageUrl": "/assets/leet.webp",
+      "socialMediaLink": "https://leetcode.com/u/Madhushivam/",
+      "name": "Leetcode"
+    }
+  ],
+  "profile": {
+    "image": "/assets/madhu.jpg",
+    "name": "madhubala",
+    "problems": 100
+  },
+  "certifications": [
+    {
+      "id": 1,
+      "name": "Deloitte Job Simulation",
+      "url": "/assets/delo1.jpg",
+      "time": "June 27th,2025",
+      "link": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_joeEDLHg7WmWh6bE8_1751013688137_completion_certificate.pdf"
+    },
+    {
+      "id": 2,
+      "name": " Flipkart Runway",
+      "url": "/assets/flip.webp",
+      "time": " Mar,2025",
+      "link": "https://d8it4huxumps7.cloudfront.net/lambda-pdfs/certificate-images/dde09b62-2af0-42a1-92bb-a31cfa08d4d4.jpg"
+    },
+    {
+      "id": 3,
+      "name": " AI Fundamentals",
+      "url": "/assets/ibm.jpg",
+      "time": "Apr30,2025",
+      "link": "https://d8it4huxumps7.cloudfront.net/lambda-pdfs/certificate-images/dde09b62-2af0-42a1-92bb-a31cfa08d4d4.jpg"
+    }
+  ],
+  "view_profile": {
+    "name": "E. Madhubala",
+    "img": "/assets/madhu.jpg",
+    "projects": "3",
+    "problems": 150,
+    "certifications": 5
+  
+  },
+  "skills": [
+    {
+      "id": 1,
+      "name": "React JS",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      "description": "Frontend Library"
+    },
+    {
+      "id": 2,
+      "name": "Python",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+      "description": "Programming Language"
+    },
+    {
+      "id": 3,
+      "name": "Machine Learning",
+      "img": "/assets/ml.webp",
+      "description": "AI / ML Skills"
+    },
+    {
+      "id": 4,
+      "name": "C++",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+      "description": "Programming Language"
+    },
+    {
+      "id": 5,
+      "name": "HTML",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+      "description": "Markup Language"
+    },
+    {
+      "id": 6,
+      "name": "CSS",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+      "description": "Styling Language"
+    },
+    {
+      "id": 7,
+      "name": "JavaScript",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+      "description": "Programming Language"
+    },
+    {
+      "id": 8,
+      "name": "OOPs",
+      "img": "/assets/oop.png",
+      "description": "Object Oriented Programming Concepts"
+    },
+    {
+      "id": 9,
+      "name": "DSA",
+      "img": "/assets/dsa.png",
+      "description": "Data Structures & Algorithms"
+    },
+    {
+      "id": 10,
+      "name": "MySQL",
+      "img": "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg",
+      "description": "Relational Database"
+    },
+    {
+      "id": 11,
+      "name": "Streamlit",
+      "img": "/assets/stream1.jpg",
+      "description": "Web App Framework for Python"
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "degree": "10th Grade",
+      "institution": "Mount Park Higher Secondary School, Kallakurichi",
+      "duration": "2021 – 2022",
+      "result": "corona batch"
+    },
+    {
+      "id": 2,
+      "degree": "12th Grade",
+      "institution": "Mount Park Higher Secondary School, Kallakurichi",
+      "duration": "2022 – 2023",
+      "result": "Percentage: 97.08%"
+    },
+    {
+      "id": 1,
+      "degree": "B.Tech in Artificial Intelligence and Data Science",
+      "institution": "Madras Institute of Technology (MIT), Chennai",
+      "duration": "2023 – Present",
+      "result": "CGPA: 8.55 / 10.0"
+    }
+  ],
+  "clubs": [
+    {
+      "id": 1,
+      "name": "Variety Club of MIT",
+      "since": "Since 2023",
+      "role": "Volunteer",
+      "img": "/assets/var.jpg"
+    },
+    {
+      "id": 2,
+      "name": "National Service Scheme (NSS)",
+      "since": "Since 2023",
+      "role": "Volunteer",
+      "img": "/assets/NSS.webp"
+    }
+  ]
+}

@@ -482,5 +482,81 @@ form {
   background-color: rgba(0,0,0,0.3);
   z-index: 900;
 }
+/* Adjust this value to match the actual width of your sidebar */
+:root {
+  --sidebar-width: 260px;
+}
+
+/* main-content pushes everything to the right of the sidebar */
+.main-content {
+  margin-left: var(--sidebar-width);
+  padding: 24px;
+  transition: margin-left 0.2s ease;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background: #f6f6f6; /* optional - matches site bg */
+}
+
+/* wrapper centers posts but constrains width */
+.posts-wrapper {
+  width: 100%;
+  max-width: 900px; /* change per layout preference */
+}
+
+/* individual post card */
+.post {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  overflow: hidden;
+}
+
+/* title tweak */
+.post-title {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+/* responsive main image */
+.post-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 12px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* small Github avatar icon */
+.dp {
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+}
+
+/* description and tech styling */
+.post-desc {
+  display: inline-block;
+  max-width: 100%;
+}
+.post-tech {
+  color: #666;
+  margin: 6px 0 0 0;
+  font-size: 0.95rem;
+}
+
+/* Make responsive: remove left margin on small screens (sidebar likely collapses) */
+@media (max-width: 992px) {
+  .main-content {
+    margin-left: 0;
+    padding: 12px;
+  }
+
+  .posts-wrapper {
+    max-width: 100%;
+  }
+}
+
 
 

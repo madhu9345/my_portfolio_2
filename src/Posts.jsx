@@ -1,52 +1,52 @@
 import React from 'react';
-
-import data from './db.json'; 
+import './index.css';     // new CSS file
+import data from './db.json';
 
 function Posts() {
-  
   const posts = data.posts;
 
   return (
-    <div className="po d-flex justify-content-center">
-      {posts && posts.length > 0 ? (
-        <div>
-          {posts.map((post) => (
-            <div className="post my-3" key={post.id}>
-              <div className="d-flex">
-                <h5 className="mt-5">{post.title}</h5>
-              </div>
+    <div className="main-content"> {/* moved margin logic to CSS */}
+      <div className="po d-flex justify-content-center">
+        {posts && posts.length > 0 ? (
+          <div className="posts-wrapper">
+            {posts.map((post) => (
+              <div className="post my-3" key={post.id}>
+                <div className="d-flex align-items-start">
+                  <h5 className="mt-0 post-title">{post.title}</h5>
+                </div>
 
-              {/* main image */}
-              <img className="img" src={post.image} alt={post.title} />
+                {/* main image */}
+                <img className="post-image" src={post.image} alt={post.title} />
 
-              {/* GitHub link */}
-              <div>
-                <a
-                  href={post.github}
-                  className="text-decoration-none text-dark"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {/* make sure this image exists in public/assets */}
-                  <img
-                    className="dp rounded-circle"
-                    src="/assets/git1.webp"
-                    alt="GitHub"
-                  />
-                </a>
-              </div>
+                {/* GitHub link */}
+                <div className="github-link mt-2">
+                  <a
+                    href={post.github}
+                    className="text-decoration-none"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      className="dp rounded-circle"
+                      src="/assets/git1.webp"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
 
-              {/* description and tech */}
-              <div>
-                <b className="text-truncate">{post.description}</b>
+                {/* description and tech */}
+                <div className="mt-2">
+                  <b className="text-truncate post-desc">{post.description}</b>
+                </div>
+                <p className="post-tech">{post.technologies}</p>
               </div>
-              <p>{post.technologies}</p>
-            </div>
-          ))}
-        </div>
-      ) : (
-        <div>Loading Posts</div>
-      )}
+            ))}
+          </div>
+        ) : (
+          <div>Loading Posts</div>
+        )}
+      </div>
     </div>
   );
 }

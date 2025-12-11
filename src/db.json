@@ -10,19 +10,19 @@
     },
     {
       "id": 2,
-      "title": "Bank Management System",
-      "description": "Developed corefunctionalities for managing customer accounts,transactions etc.",
-      "technologies": "Database Management System",
-      "github": "https://github.com/madhu9345/bank-management-system",
-      "image": "/assets/bank.webp"
+      "title": "Dream Dalle",
+      "description": "A full-stack AI image generation platform that transforms user prompts into high-quality images using advanced generative models.",
+      "technologies": "MERN",
+      "github": "https://github.com/madhu9345/image_generation",
+      "image": "/assets/dalle_logo.png"
     },
     {
       "id": 3,
-      "title": "Walmart Sales Predicter",
-      "description": "Built a machinelearning model  to predict weeklysales for Walmartstores.",
+      "title": "Smart Aquaculture System",
+      "description": "A smart aquaculture monitoring system that tracks pH, temperature, water level, light, and air quality using IoT sensors for healthier fish farming.",
       "technologies": "Machine Learning",
       "github": "https://github.com/madhu9345/walmart_sales_predictor",
-      "image": "/assets/walmart.webp"
+      "image": "/assets/fish.webp"
     }
   ],
   "stories": [

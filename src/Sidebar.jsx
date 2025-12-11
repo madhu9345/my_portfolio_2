@@ -3,13 +3,13 @@ import { useNavigate } from "react-router-dom";
 
 function Sidebar() {
   const navigate = useNavigate();
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 1500);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 786);
   const [open, setOpen] = useState(!isMobile);
 
   
   useEffect(() => {
     const handleResize = () => {
-      const mobile = window.innerWidth < 1500;
+      const mobile = window.innerWidth < 786;
       setIsMobile(mobile);
       setOpen(!mobile); 
     };
